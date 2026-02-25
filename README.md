@@ -10,7 +10,7 @@
 3. Загруженная модель deepseek-coder:
 	```bash
 	ollama pull deepseek-coder
-4. Для улучшения процесса можно использовать DeepSeek-Coder-V2 Lite(тогда запускать вторую версию сервера)
+4. Для улучшения процесса(с ней процесс идет в разы дольше + минимум 8 гб vram) можно использовать DeepSeek-Coder-V2 Lite(тогда запускать вторую версию сервера)
 	
 		ollama pull deepseek-coder-v2:16b-lite-instruct-q4_K_M
 
