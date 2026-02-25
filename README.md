@@ -17,14 +17,19 @@
 # 2. Запуск серверной части
 Сервер обрабатывает логику разбиения кода на части и взаимодействие с моделью через LangChain.
 
-	bash
+	```bash
 	python server.py
 	
 Сервер запустится на http://0.0.0.0:8000. Не закрывайте терминал во время работы.
 
 # 3. Анализ
-	Локальный файл - python cli.py "C:\path\to\script.py"
-	Ссылка на GitHub - python cli.py https://github.com
+Локальный файл - 
+
+	python cli.py "C:\path\to\script.py"
+	
+Ссылка на GitHub - 
+
+	python cli.py https://github.com
 
 
 Логика работы системы
