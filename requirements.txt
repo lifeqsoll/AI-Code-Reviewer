@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+langchain-ollama
+langchain-core
+GitPython
+typer
+requests
+rich
