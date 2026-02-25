@@ -8,8 +8,8 @@
 1. Python 3.9 или выше.
 2. Установленная среда Ollama.
 3. Загруженная модель deepseek-coder:
-   
-   ollama pull deepseek-coder
+	```bash
+	ollama pull deepseek-coder
 
 # 1. Установка зависимостей
 	pip install -r requirements.txt
