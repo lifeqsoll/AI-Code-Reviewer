@@ -22,7 +22,7 @@ app = FastAPI()
 llm = OllamaLLM(
     model="deepseek-coder-v2:16b-lite-instruct-q4_K_M", 
     temperature=0.1,
-    num_ctx=8192,     # Размер контекста (8к токенов) для анализа длинных файлов
+    num_ctx=4192,     # Размер контекста (4к токенов) для анализа длинных файлов(с 8 к оч долго)
     num_gpu=99,       # Принудительная загрузка всех слоев в видеокарту
     repeat_penalty=1.1
 )
