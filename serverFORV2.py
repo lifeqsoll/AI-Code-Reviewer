@@ -30,10 +30,10 @@ llm = OllamaLLM(
 class ReviewRequest(BaseModel):
     source: str
 
-def get_code_chunks(code: str, file_path: str, max_lines: int = 250):
+def get_code_chunks(code: str, file_path: str, max_lines: int = 400):
     """
     Разбивает код на логические блоки. 
-    max_lines увеличен до 250, так как у V2 контекст больше.
+    max_lines увеличен до 400, так как у V2 контекст больше.
     """
     try:
         tree = ast.parse(code)
@@ -144,3 +144,4 @@ if __name__ == "__main__":
     import uvicorn
     # Запуск сервера
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
