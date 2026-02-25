@@ -26,7 +26,7 @@
 Локальный файл - 
 	
 	
-	python cli.py "C:\path\to\script.py"
+	python cli.py C:\path\to\script.py
 	
 Ссылка на GitHub - 
 	
