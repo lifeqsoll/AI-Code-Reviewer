@@ -8,7 +8,7 @@
 1. Python 3.9 или выше.
 2. Установленная среда Ollama.
 3. Загруженная модель deepseek-coder:
-   ```bash
+   
    ollama pull deepseek-coder
 
 # 1. Установка зависимостей
@@ -16,7 +16,7 @@
 
 # 2. Запуск серверной части
 Сервер обрабатывает логику разбиения кода на части и взаимодействие с моделью через LangChain.
-	```bash
+	
 	
 	python server.py
 	
@@ -24,12 +24,12 @@
 
 # 3. Анализ
 Локальный файл - 
-	```bash
+	
 	
 	python cli.py "C:\path\to\script.py"
 	
 Ссылка на GitHub - 
-	```bash
+	
 	
 	python cli.py https://github.com
 
